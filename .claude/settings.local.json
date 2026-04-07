@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"c:/Users/Raúl Gascó/Documents/curso claude code_vs/thot/app/\\(tabs\\)/\")",
+      "Bash(npm start:*)",
+      "Bash(npx expo:*)",
+      "Bash(find 'c:\\\\Users\\\\Raúl Gascó\\\\Documents\\\\curso claude code_vs\\\\thot' -name *auth* -o -name *protect* -o -name *guard*)",
+      "Bash(grep -r \"getSession\\\\|user\\\\|auth.on\\\\|onAuthStateChanged\" 'c:\\\\Users\\\\Raúl Gascó\\\\Documents\\\\curso claude code_vs\\\\thot\\\\app' --include=*.tsx --include=*.ts)",
+      "Bash(npm install:*)",
+      "Bash(ipconfig)"
+    ]
+  }
+}
