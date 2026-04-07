@@ -4,6 +4,11 @@
   },
   "build": {
     "preview": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://thot-f0xg.onrender.com",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://vfpnasiikvskcmejncxn.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_dHUUwY0etyRcNzWJavIDUA_ou8Q0GJw"
+      },
       "android": {
         "buildType": "apk",
         "gradleCommand": ":app:assembleRelease"
